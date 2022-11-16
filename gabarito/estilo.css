@@ -1,0 +1,89 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+   text-align: center;
+   background-color: lightslategray;
+   font-size: 20px;
+   padding: 15px;
+   color: white;
+   font-family: sans-serif;
+}
+.clone{
+    display: none;
+}
+
+.area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.aluno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid lightslategray;
+    padding: 20px;
+    width: 100%;
+}
+ .aluno-opcao{
+    margin: 10px;
+ }
+ .aluno-opcao select{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+ }
+ .aluno-nome{
+    width: 70px;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+ }
+ .btn{
+    margin: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: white;
+    outline: none;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background-color: black;
+    color: white;
+    
+ }
+
+@media(max-width: 600px){
+   .aluno-opcao{
+      margin: 2px;
+   }
+   .aluno-nome{
+      font-size: 10px;
+      width: 40px;
+      font-weight: bolder;
+      
+   }
+   .aluno-opcao select{
+      width: 30px;
+      height: 30px;
+      font-size: 8px;
+   }
+   .aluno{
+      padding: 10px 5px 10px 5px;
+   }
+}
