@@ -25,6 +25,18 @@ header{
     
     
 }
+.gabarito{
+   width: 100%;
+   text-align: center;
+   border-bottom: 2px solid lightslategray;
+   padding: 15px;
+}
+.gabarito input{
+   padding: 7px;
+   margin: 3px;
+   font-size: 17px;
+   outline: none;
+}
 .aluno{
     display: flex;
     flex-direction: row;
